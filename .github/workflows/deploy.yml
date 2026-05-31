@@ -19,4 +19,5 @@ jobs:
           host: ${{ secrets.HOST }}
           username: ${{ secrets.USERNAME }}
           key: ${{ secrets.SSH_KEY }}
-          
+          source: "./*"
+          target: "/home/isard/deploy-test"
